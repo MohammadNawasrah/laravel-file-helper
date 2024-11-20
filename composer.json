@@ -1,23 +1,17 @@
 {
     "name": "nawasrah/file-helper",
-    "description": "A helper library for file management in Laravel.",
+    "description": "A helper package for file management",
     "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.0"
+    },
     "autoload": {
         "psr-4": {
             "Nawasrah\\FileHelper\\": "src/"
         }
     },
-    "require": {
-        "php": ">=8.2",
-        "laravel/framework": "^8.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Mohammad Nawasrah",
-            "email": "dev.nawasrah@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
