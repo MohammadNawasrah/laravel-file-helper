@@ -1,5 +1,5 @@
 {
-    "name": "Nawasrah/FileHelper",
+    "name": "nawasrah/file-helper",
     "description": "A helper library for file management in Laravel.",
     "type": "library",
     "autoload": {
